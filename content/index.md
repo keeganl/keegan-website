@@ -1,14 +1,16 @@
 ---
-siteTitle: "Next Blog"
-description: "A blog built using next and processmd"
+siteTitle: 'Keegan Lawley'
+description: "I'm a graduate student at FSU focusing on graphics"
 stylesheets:
-  - "https://unpkg.com/tachyons@4.7.4/css/tachyons.min.css"
+  - 'https://unpkg.com/tachyons@4.7.4/css/tachyons.min.css'
 topLinks:
-  - text: "Blog"
-    href: "/"
-  - text: "Github"
-    href: "https://github.com/tscanlin/"
-backgroundClass: "bg-dark-gray"
-copyright: "Tim Scanlin"
-siteId: ""
+  - text: 'Home'
+    href: '/'
+  - text: 'Contact'
+    href: '/contact'
+  - text: 'Github'
+    href: 'https://github.com/keeganl/'
+backgroundClass: 'bg-dark-gray'
+copyright: 'Keegan Lawley'
+siteId: ''
 ---

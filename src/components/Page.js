@@ -1,13 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Header from './Header'
-import Hero from './Hero'
-import Footer from './Footer'
-import Tracking from './Tracking'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Header from './Header';
+import Hero from './Hero';
+import Footer from './Footer';
+import Tracking from './Tracking';
 
 function Page(props) {
   return (
-    <div>
+    <div className="bg-black white h-100">
       <Header
         siteTitle={props.siteTitle}
         description={props.description}
@@ -20,16 +20,12 @@ function Page(props) {
           topLinks={props.topLinks}
           backgroundClass={props.backgroundClass}
         />
-
-        {props.body}
-
+        <div className="mv3">{props.body}</div>
         <Footer copyright={props.copyright} />
-        {props.siteId && (
-          <Tracking siteId={props.siteId} />
-        )}
+        {props.siteId && <Tracking siteId={props.siteId} />}
       </main>
     </div>
-  )
+  );
 }
 
 Page.propTypes = {
@@ -38,15 +34,13 @@ Page.propTypes = {
   stylesheets: PropTypes.array,
   topLinks: PropTypes.array,
   siteId: PropTypes.string.isRequired,
-}
+};
 
 Page.defaultProps = {
   heroTitle: '',
   description: '',
-  stylesheets: [
-    'https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css'
-  ],
+  stylesheets: ['https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css'],
   backgroundClass: 'bg-dark-gray',
-}
+};
 
-export default Page
+export default Page;
