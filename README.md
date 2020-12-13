@@ -1,3 +1,5 @@
+Forked from https://github.com/tscanlin/next-blog
+
 ## Install dependencies
 
 ```sh
@@ -22,7 +24,7 @@ npm start
 npm run build
 ```
 
-## Deploy 
+## Deploy
 
 ```sh
 vercel
