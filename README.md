@@ -22,4 +22,8 @@ npm start
 npm run build
 ```
 
-## TODO
+## Deploy 
+
+```sh
+vercel
+```

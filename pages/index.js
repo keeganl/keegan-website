@@ -29,17 +29,22 @@ function Index(props) {
 function Body(props) {
   const postList = filterPosts(props.summaryJson);
   return (
-    <div className="center mw6 pa3 pa4-ns">
+    <div className="center mw6 ph2-ns">
       <h2>About Me</h2>
-      <div>
-        <div className="br-100">
-          <Image src="/static/images/me.jpg" width={2448} height={3264} alt="Me" />
+      <div className="flex items-center">
+        <div className="mr3">
+          <Image className="w-100" src="/me.png" width={816} height={1088} alt="Me" />
         </div>
-        <p className="f4">
-          My name is Keegan Lawley and I am a graduate student at Florida State University with an
-          interest in computer graphics. My interests are in real time rendering and real time
-          deformation.
-        </p>
+        <div className="f4">
+          <p>
+            My name is Keegan Lawley and I am a graduate student at Florida State University with an
+            interest in computer graphics. My interests are in real time rendering and real time
+            deformation.
+          </p>
+        </div>
+        <div>
+          
+        </div>
       </div>
       <br />
       <h2>Projects</h2>
