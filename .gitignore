@@ -2,7 +2,7 @@ node_modules
 .next
 .DS_Store
 out
-public
+# public
 *.log
 # content/**/*.json
 package-lock.json
