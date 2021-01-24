@@ -6,5 +6,5 @@ out
 *.log
 # content/**/*.json
 package-lock.json
-
+favicon_io
 .vercel
