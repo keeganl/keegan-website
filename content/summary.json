@@ -1,0 +1,86 @@
+{
+  "fileMap": {
+    "content/custom-post.json": {
+      "title": "Custom post",
+      "date": "2017-06-01T00:00:00.000Z",
+      "page": "post",
+      "paths": [
+        "/custom-post",
+        "/custom-post-alias",
+        "/subpath/custom-post-alias"
+      ],
+      "preview": "An alias\n\nAnd another alias",
+      "dir": "content",
+      "base": "custom-post.json",
+      "ext": ".json",
+      "sourceBase": "custom-post.md",
+      "sourceExt": ".md"
+    },
+    "content/index.json": {
+      "siteTitle": "Keegan Lawley",
+      "description": "I'm a graduate student at FSU focusing on graphics",
+      "stylesheets": [
+        "https://unpkg.com/tachyons@4.7.4/css/tachyons.min.css"
+      ],
+      "topLinks": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Contact",
+          "href": "/contact"
+        },
+        {
+          "text": "Github",
+          "href": "https://github.com/keeganl/"
+        }
+      ],
+      "backgroundClass": "bg-dark-gray",
+      "copyright": "Keegan Lawley",
+      "siteId": "",
+      "dir": "content",
+      "base": "index.json",
+      "ext": ".json",
+      "sourceBase": "index.md",
+      "sourceExt": ".md"
+    },
+    "content/posts/2020/first-post.json": {
+      "title": "Ray Tracer",
+      "date": "2020-06-01T00:00:00.000Z",
+      "preview": "A ray tracer built in C++ with OpenGL.",
+      "dir": "content/posts/2020",
+      "base": "first-post.json",
+      "ext": ".json",
+      "sourceBase": "first-post.md",
+      "sourceExt": ".md"
+    },
+    "content/posts/2020/post-two.json": {
+      "title": "Rasterizer",
+      "date": "2020-06-12T00:00:00.000Z",
+      "preview": "A rasterizer built in C++ with OpenGL\n\nCheck out GitHub to see my other projects",
+      "dir": "content/posts/2020",
+      "base": "post-two.json",
+      "ext": ".json",
+      "sourceBase": "post-two.md",
+      "sourceExt": ".md"
+    },
+    "content/posts/2020/third-post.json": {
+      "title": "Real Time Shape Deformation",
+      "date": "2020-12-12T00:00:00.000Z",
+      "preview": "Implementing Real-Time Shape Deformations in OpenGL.\n\nCheck out GitHub to see my other projects",
+      "dir": "content/posts/2020",
+      "base": "third-post.json",
+      "ext": ".json",
+      "sourceBase": "third-post.md",
+      "sourceExt": ".md"
+    }
+  },
+  "sourceFileArray": [
+    "content/custom-post.md",
+    "content/index.md",
+    "content/posts/2020/first-post.md",
+    "content/posts/2020/post-two.md",
+    "content/posts/2020/third-post.md"
+  ]
+}

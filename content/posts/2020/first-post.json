@@ -1,0 +1,12 @@
+{
+  "title": "Ray Tracer",
+  "date": "2020-06-01T00:00:00.000Z",
+  "bodyContent": "A ray tracer built in C++ with OpenGL.",
+  "bodyHtml": "<p>A ray tracer built in C++ with OpenGL.</p>\n",
+  "preview": "A ray tracer built in C++ with OpenGL.",
+  "dir": "content/posts/2020",
+  "base": "first-post.json",
+  "ext": ".json",
+  "sourceBase": "first-post.md",
+  "sourceExt": ".md"
+}

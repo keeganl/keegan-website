@@ -4,7 +4,7 @@ node_modules
 out
 public
 *.log
-content/**/*.json
+# content/**/*.json
 package-lock.json
 
 .vercel
