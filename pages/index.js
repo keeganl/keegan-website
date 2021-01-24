@@ -8,6 +8,8 @@ import { makeUrl, filterPosts } from '../src/utils/content';
 import CONFIG from '../content/index.json';
 import SUMMARY_JSON from '../content/summary.json';
 
+// testing deployment
+
 function Index(props) {
   return (
     <div className="bg-black white">
@@ -38,12 +40,11 @@ function Body(props) {
         <div className="f4">
           <p>
             My name is Keegan Lawley and I am a graduate student at Florida State University with an
-            interest in computer graphics. My interests are in real time shape deformation and real time rendering.
+            interest in computer graphics. My interests are in real time shape deformation and real
+            time rendering.
           </p>
         </div>
-        <div>
-          
-        </div>
+        <div></div>
       </div>
       <br />
       <h2>Projects</h2>
