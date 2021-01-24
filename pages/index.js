@@ -38,8 +38,7 @@ function Body(props) {
         <div className="f4">
           <p>
             My name is Keegan Lawley and I am a graduate student at Florida State University with an
-            interest in computer graphics. My interests are in real time rendering and real time
-            deformation.
+            interest in computer graphics. My interests are in real time shape deformation and real time rendering.
           </p>
         </div>
         <div>

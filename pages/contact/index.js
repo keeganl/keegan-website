@@ -32,7 +32,7 @@ function Body(props) {
           <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
             <legend class="f4 fw6 ph0 mh0 white">Contact Me</legend>
             <div class="mt3">
-              <label class="db fw6 lh-copy f6" for="email-address">
+              <label class="db fw6 lh-copy f6" htmlFor="email-address">
                 Email
               </label>
               <input
@@ -43,7 +43,7 @@ function Body(props) {
               />
             </div>
             <div class="mt3">
-              <label class="db fw6 lh-copy f6" for="message">
+              <label class="db fw6 lh-copy f6" htmlFor="message">
                 Message
               </label>
               <textarea
