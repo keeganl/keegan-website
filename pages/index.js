@@ -4,6 +4,10 @@ import Page from '../src/components/Page';
 import PagePreview from '../src/components/PagePreview';
 import { formatDate } from '../src/utils/date';
 import { makeUrl, filterPosts } from '../src/utils/content';
+import '@fortawesome/fontawesome-free/js/fontawesome';
+import '@fortawesome/fontawesome-free/js/solid';
+import '@fortawesome/fontawesome-free/js/regular';
+import '@fortawesome/fontawesome-free/js/brands';
 
 import CONFIG from '../content/index.json';
 import SUMMARY_JSON from '../content/summary.json';
@@ -61,6 +65,18 @@ function Body(props) {
           />
         );
       })}
+      <h2>Contact</h2>
+      <div className="flex">
+        <div className="m2">
+          <i class="fab fa-2x fa-github"></i>
+        </div>
+        <div className="m2">
+          <i class="fab fa-2x fa-linkedin"></i>
+        </div>
+        <div className="m2">
+          <i class="fas fa-2x fa-file-alt"></i>
+        </div>
+      </div>
     </div>
   );
 }

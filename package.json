@@ -29,6 +29,7 @@
     "standard": "^14.3.2"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "styled-jsx": "^3.2.5"
