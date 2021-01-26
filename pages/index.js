@@ -67,27 +67,27 @@ function Body(props) {
       })}
       <h2>Contact</h2>
       <div className="flex justify-center">
-        <div className="m2 w-25 tc">
+        <div className="w-25 tc">
           <a className="link white dim" href="https://github.com/keeganl" target="_blank">
-            <i className="fab fa-github"></i>
+            <i className="fab fa-lg fa-github"></i>
           </a>
           <p>Github</p>
         </div>
-        <div className="m2 w-25 tc">
+        <div className="w-25 tc">
           <a className="link white dim" href="https://www.linkedin.com/in/keegan-lawley" target="_blank">
-            <i className="fab fa-linkedin"></i>
+            <i className="fab fa-lg fa-linkedin"></i>
           </a>
           <p>LinkedIn</p>
         </div>
-        <div className="m2 w-25 tc">
+        <div className="w-25 tc">
           <a className="link white dim" href="/resume.pdf" target="_blank">
-            <i className="fas fa-file-alt"></i>
+            <i className="fas fa-lg fa-file-alt"></i>
           </a>
           <p>Resume</p>
         </div>
-        <div className="m2 w-25 tc">
+        <div className="w-25 tc">
           <a className="link white dim" href="mailto:keeganlk.7@gmail.com">
-          <i class="fas fa-at"></i>
+          <i class="fas fa-lg fa-at"></i>
           </a>
           <p>Email</p>
         </div>
