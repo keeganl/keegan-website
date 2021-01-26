@@ -41,7 +41,7 @@ function Index(props) {
         description={CONFIG.description}
         stylesheets={CONFIG.stylesheets}
         topLinks={CONFIG.topLinks}
-        backgroundClass={CONFIG.backgroundClass}
+        backgroundclassName={CONFIG.backgroundClass}
         body={Body(pageJson)}
         copyright={CONFIG.copyright}
         siteId={CONFIG.siteId}
