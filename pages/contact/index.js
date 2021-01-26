@@ -15,7 +15,7 @@ function Contact(props) {
         description={CONFIG.description}
         stylesheets={CONFIG.stylesheets}
         topLinks={CONFIG.topLinks}
-        backgroundClass={CONFIG.backgroundClass}
+        backgroundclassName={CONFIG.backgroundClass}
         body={Body({ summaryJson: SUMMARY_JSON })}
         copyright={CONFIG.copyright}
         siteId={CONFIG.siteId}
@@ -27,35 +27,35 @@ function Contact(props) {
 function Body(props) {
   return (
     <div className="center mw6 pa3 pa4-ns white">
-      <main class="pa4 white-80">
-        <form class="measure center" action="https://formspree.io/f/xaylppdq" method="POST">
-          <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
-            <legend class="f4 fw6 ph0 mh0 white">Contact Me</legend>
-            <div class="mt3">
-              <label class="db fw6 lh-copy f6" htmlFor="email-address">
+      <main className="pa4 white-80">
+        <form className="measure center" action="https://formspree.io/f/xaylppdq" method="POST">
+          <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
+            <legend className="f4 fw6 ph0 mh0 white">Contact Me</legend>
+            <div className="mt3">
+              <label className="db fw6 lh-copy f6" htmlFor="email-address">
                 Email
               </label>
               <input
-                class="pa2 input-reset ba br3 bg-white w-100 black"
+                className="pa2 input-reset ba br3 bg-white w-100 black"
                 type="email"
                 name="email-address"
                 id="email-address"
               />
             </div>
-            <div class="mt3">
-              <label class="db fw6 lh-copy f6" htmlFor="message">
+            <div className="mt3">
+              <label className="db fw6 lh-copy f6" htmlFor="message">
                 Message
               </label>
               <textarea
-                class="pa2 input-reset ba br3 bg-wite w-100 black"
+                className="pa2 input-reset ba br3 bg-wite w-100 black"
                 name="message"
                 id="message"
               />
             </div>
           </fieldset>
-          <div class="">
+          <div className="">
             <input
-              class="b ph3 pv2 input-reset ba br3  b--white bg-transparent grow pointer f6 dib white"
+              className="b ph3 pv2 input-reset ba br3  b--white bg-transparent grow pointer f6 dib white"
               type="submit"
               value="Send"
             />

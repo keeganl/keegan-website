@@ -18,7 +18,7 @@ function Page(props) {
           heroTitle={props.heroTitle}
           subtitle={props.description}
           topLinks={props.topLinks}
-          backgroundClass={props.backgroundClass}
+          backgroundclassName={props.backgroundClass}
         />
         <div className="mv3">{props.body}</div>
         <Footer copyright={props.copyright} />

@@ -4,6 +4,10 @@ import Page from '../src/components/Page';
 import PagePreview from '../src/components/PagePreview';
 import { formatDate } from '../src/utils/date';
 import { makeUrl, filterPosts } from '../src/utils/content';
+import '@fortawesome/fontawesome-free/js/fontawesome';
+import '@fortawesome/fontawesome-free/js/solid';
+import '@fortawesome/fontawesome-free/js/regular';
+import '@fortawesome/fontawesome-free/js/brands';
 
 import CONFIG from '../content/index.json';
 import SUMMARY_JSON from '../content/summary.json';
@@ -19,7 +23,7 @@ function Index(props) {
         description={CONFIG.description}
         stylesheets={CONFIG.stylesheets}
         topLinks={CONFIG.topLinks}
-        backgroundClass={CONFIG.backgroundClass}
+        backgroundclassName={CONFIG.backgroundClass}
         body={Body({ summaryJson: SUMMARY_JSON })}
         copyright={CONFIG.copyright}
         siteId={CONFIG.siteId}
@@ -61,6 +65,33 @@ function Body(props) {
           />
         );
       })}
+      <h2>Contact</h2>
+      <div className="flex justify-center">
+        <div className="m2 w-25 tc">
+          <a className="link white dim" href="https://github.com/keeganl" target="_blank">
+            <i className="fab fa-2x fa-github"></i>
+          </a>
+          <p>Github</p>
+        </div>
+        <div className="m2 w-25 tc">
+          <a className="link white dim" href="https://www.linkedin.com/in/keegan-lawley" target="_blank">
+            <i className="fab fa-2x fa-linkedin"></i>
+          </a>
+          <p>LinkedIn</p>
+        </div>
+        <div className="m2 w-25 tc">
+          <a className="link white dim" href="/resume.pdf" target="_blank">
+            <i className="fas fa-2x fa-file-alt"></i>
+          </a>
+          <p>Resume</p>
+        </div>
+        <div className="m2 w-25 tc">
+          <a className="link white dim" href="mailto:keeganlk.7@gmail.com">
+          <i class="fas fa-2x fa-at"></i>
+          </a>
+          <p>Email</p>
+        </div>
+      </div>
     </div>
   );
 }
