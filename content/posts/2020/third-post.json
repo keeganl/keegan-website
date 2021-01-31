@@ -1,8 +1,8 @@
 {
   "title": "Real Time Shape Deformation",
   "date": "2020-12-12T00:00:00.000Z",
-  "bodyContent": "Implementing Real-Time Shape Deformations in OpenGL.\n\nCheck out [GitHub to see my other projects](https://github.com/keeganl)",
-  "bodyHtml": "<p>Implementing Real-Time Shape Deformations in OpenGL.</p>\n<p>Check out <a href=\"https://github.com/keeganl\">GitHub to see my other projects</a></p>\n",
+  "bodyContent": "Implementing Real-Time Shape Deformations in OpenGL.\n---\nCheck out [GitHub to see my other projects](https://github.com/keeganl)",
+  "bodyHtml": "<h2>Implementing Real-Time Shape Deformations in OpenGL.</h2>\n<p>Check out <a href=\"https://github.com/keeganl\">GitHub to see my other projects</a></p>\n",
   "preview": "Implementing Real-Time Shape Deformations in OpenGL.\n\nCheck out GitHub to see my other projects",
   "dir": "content/posts/2020",
   "base": "third-post.json",
