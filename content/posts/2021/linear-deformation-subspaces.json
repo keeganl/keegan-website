@@ -1,0 +1,12 @@
+{
+  "title": "Linear Subspace Design for Real-Time Shape Deformation",
+  "date": "2021-01-30T00:00:00.000Z",
+  "bodyContent": "Implementing `Linear Subspace Design for Real-Time Shape Deformation` in libigl.\n\n--- \nCheck out [GitHub to see my other projects](https://github.com/keeganl)",
+  "bodyHtml": "<p>Implementing <code>Linear Subspace Design for Real-Time Shape Deformation</code> in libigl.</p>\n<hr>\n<p>Check out <a href=\"https://github.com/keeganl\">GitHub to see my other projects</a></p>\n",
+  "preview": "Implementing Linear Subspace Design for Real-Time Shape Deformation in libigl.\n\nCheck out GitHub to see my",
+  "dir": "content/posts/2021",
+  "base": "linear-deformation-subspaces.json",
+  "ext": ".json",
+  "sourceBase": "linear-deformation-subspaces.md",
+  "sourceExt": ".md"
+}

@@ -12,6 +12,7 @@ function PageLink(props) {
   );
 }
 
+
 function PagePreview(props) {
   return (
     <div className="mb4 pb2 bb b--white">
@@ -22,7 +23,7 @@ function PagePreview(props) {
         <p className="mv1">
           {props.preview}
           <PageLink href={props.href}>
-            <span className="white"> »</span>
+            <span className="white"></span>
           </PageLink>
         </p>
       )}
@@ -34,6 +35,7 @@ function PagePreview(props) {
     </div>
   );
 }
+
 
 PagePreview.propTypes = {
   title: PropTypes.string.isRequired,

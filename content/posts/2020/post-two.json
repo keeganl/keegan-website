@@ -1,8 +1,8 @@
 {
   "title": "Rasterizer",
-  "date": "2020-06-12T00:00:00.000Z",
-  "bodyContent": "A rasterizer built in C++ with OpenGL\n\nCheck out [GitHub to see my other projects](https://github.com/keeganl)",
-  "bodyHtml": "<p>A rasterizer built in C++ with OpenGL</p>\n<p>Check out <a href=\"https://github.com/keeganl\">GitHub to see my other projects</a></p>\n",
+  "date": "2020-11-30T00:00:00.000Z",
+  "bodyContent": "A rasterizer built in C++ with OpenGL\n---\nCheck out [GitHub to see my other projects](https://github.com/keeganl)",
+  "bodyHtml": "<h2>A rasterizer built in C++ with OpenGL</h2>\n<p>Check out <a href=\"https://github.com/keeganl\">GitHub to see my other projects</a></p>\n",
   "preview": "A rasterizer built in C++ with OpenGL\n\nCheck out GitHub to see my other projects",
   "dir": "content/posts/2020",
   "base": "post-two.json",
