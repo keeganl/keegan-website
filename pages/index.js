@@ -87,7 +87,7 @@ function Body(props) {
         </div>
         <div className="w-25 tc">
           <a className="link white dim" href="mailto:keeganlk.7@gmail.com">
-          <i style={{height: "50px"}} class="fas fa-2x fa-at"></i>
+          <i style={{height: "50px"}} className="fas fa-2x fa-at"></i>
           </a>
           <p>Email</p>
         </div>
