@@ -1,9 +1,9 @@
 {
   "title": "Linear Subspace Design for Real-Time Shape Deformation",
   "date": "2021-01-30T00:00:00.000Z",
-  "bodyContent": "Implementing `Linear Subspace Design for Real-Time Shape Deformation` in libigl.\n\n--- \nCheck out [GitHub to see my other projects](https://github.com/keeganl)",
-  "bodyHtml": "<p>Implementing <code>Linear Subspace Design for Real-Time Shape Deformation</code> in libigl.</p>\n<hr>\n<p>Check out <a href=\"https://github.com/keeganl\">GitHub to see my other projects</a></p>\n",
-  "preview": "Implementing Linear Subspace Design for Real-Time Shape Deformation in libigl.\n\nCheck out GitHub to see my",
+  "bodyContent": "In an attempt to learn more about deformations and explore linear algebra in an applied example. I decided to read some published papers and try to implement the method within similar to the process that I did for <i>Real-Time Shape Deformations</i>. I decided to implement Linear Subspace Design for Real-Time Shape Deformation in libigl.\nCheck out [GitHub to see my other projects](https://github.com/keeganl)",
+  "bodyHtml": "<p>In an attempt to learn more about deformations and explore linear algebra in an applied example. I decided to read some published papers and try to implement the method within similar to the process that I did for &lt;i&gt;Real-Time Shape Deformations&lt;/i&gt;. I decided to implement Linear Subspace Design for Real-Time Shape Deformation in libigl.\nCheck out <a href=\"https://github.com/keeganl\">GitHub to see my other projects</a></p>\n",
+  "preview": "In an attempt to learn more about deformations and explore linear algebra in an applied example. I decided to",
   "dir": "content/posts/2021",
   "base": "linear-deformation-subspaces.json",
   "ext": ".json",

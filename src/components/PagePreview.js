@@ -21,7 +21,7 @@ function PagePreview(props) {
       </PageLink>
       {props.preview && (
         <p className="mv1">
-          {props.preview}
+          {props.preview.substring(0, 70)}...
           <PageLink href={props.href}>
             <span className="white"></span>
           </PageLink>
